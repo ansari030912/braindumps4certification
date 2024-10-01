@@ -1,0 +1,42 @@
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.custom-pagination .pagination {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-pagination .pagination li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.custom-pagination .pagination li a {
+    display: block;
+    padding: 10px 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.custom-pagination .pagination li.active a {
+    background-color: #007bff;
+    color: white;
+}
+
+.custom-pagination .pagination li.disabled a {
+    color: #ccc;
+}
+
+.custom-pagination .pagination li:hover a {
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
