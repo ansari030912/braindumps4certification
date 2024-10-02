@@ -15,7 +15,7 @@
                                             <img src="{{ $post->post_image }}" alt="{{ $post->post_title }}"
                                                 style="max-width: 100%; height: auto;">
                                         @else
-                                            <img src="{{ asset('public/assets/img/blog.webp') }}" alt="{{ $post->post_title }}"
+                                            <img src="{{ url('assets/img/blog.webp') }}" alt="{{ $post->post_title }}"
                                                 style="max-width: 100%; height: auto;">
                                         @endif
                                     </div>
@@ -144,7 +144,7 @@
                                 <ul style="list-style-type: none; padding: 0;">
                                     @foreach ($recentPosts as $post)
                                         <li class="recent-post-item mb-2"
-                                            style="position: relative; overflow: hidden; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(163, 155, 155, 0.1); height: 150px; background-image: url('{{ $post->post_image ?: asset('public/assets/img/blog.webp') }}'); background-size: cover; background-position: center;">
+                                            style="position: relative; overflow: hidden; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(163, 155, 155, 0.1); height: 150px; background-image: url('{{ $post->post_image ?: asset('assets/img/blog.webp') }}'); background-size: cover; background-position: center;">
 
                                             <div
                                                 style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.7);">

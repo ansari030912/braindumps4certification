@@ -69,24 +69,25 @@
     All Js File
 ============================== -->
 <!-- Jquery -->
-<script src="{{ asset('public/assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ url('assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
 <!-- Slick Slider -->
-<script src="{{ asset('public/assets/js/slick.min.js') }}"></script>
+<script src="{{ url('assets/js/slick.min.js') }}"></script>
 <!-- Bootstrap -->
-<script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ url('assets/js/bootstrap.min.js') }}"></script>
 <!-- Magnific Popup -->
-<script src="{{ asset('public/assets/js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ url('assets/js/jquery.magnific-popup.min.js') }}"></script>
 <!-- Counter Up -->
-<script src="{{ asset('public/assets/js/jquery.counterup.min.js') }}"></script>
+<script src="{{ url('assets/js/jquery.counterup.min.js') }}"></script>
 <!-- Range Slider -->
-<script src="{{ asset('public/assets/js/jquery-ui.min.js') }}"></script>
+<script src="{{ url('assets/js/jquery-ui.min.js') }}"></script>
 <!-- Isotope Filter -->
-<script src="{{ asset('public/assets/js/imagesloaded.pkgd.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/isotope.pkgd.min.js') }}"></script>
+<script src="{{ url('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+<script src="{{ url('assets/js/isotope.pkgd.min.js') }}"></script>
 <!-- Vimeo Player -->
-<script src="{{ asset('public/assets/js/vimeo_player.js') }}"></script>
+<script src="{{ url('assets/js/vimeo_player.js') }}"></script>
 <!-- Main Js File -->
-<script src="{{ asset('public/assets/js/main.js') }}"></script>
+<script src="{{ url('assets/js/main.js') }}"></script>
+
 </body>
 
 </html>

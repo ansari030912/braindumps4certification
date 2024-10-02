@@ -20,9 +20,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons -->
-    <link rel="manifest" href="{{ asset('public/assets/img/favicons/manifest.json') }}">
+    <link rel="manifest" href="{{ url('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ asset('public/assets/img/favicons/ms-icon-144x144.png') }}">
+    <meta name="msapplication-TileImage" content="{{ url('assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Google Fonts -->
@@ -33,11 +33,11 @@
         rel="stylesheet">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="{{ asset('public/assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/fontawesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/magnific-popup.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/slick.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/fontawesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/magnific-popup.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/slick.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/style.css') }}">
 
 </head>
 
@@ -94,8 +94,8 @@
                     <div class="py-3">
                         <div>
                             <a href="/">
-                                <b style="font-size: 25px">
-                                    Brain Dumps 4 Certification</span>
+                                <span style="font-size: 25px">
+                                   <b> Brain Dumps 4 Certification</b></span>
                             </a>
                         </div>
                     </div>
